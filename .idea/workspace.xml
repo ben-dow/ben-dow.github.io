@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f51f0b5f-4364-4d9e-93c6-a3d7a583da76" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/programmer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/programmer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/programmer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/programmer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/theater.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/theater.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/theater.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/theater.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/programmer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/theater.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -263,6 +260,27 @@
             <path>
               <item name="ben-dow.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ben-dow.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="main.sass" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="ben-dow.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ben-dow.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="programmer.sass" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="ben-dow.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ben-dow.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="theater.sass" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="ben-dow.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ben-dow.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -317,23 +335,22 @@
       <updated>1542589907553</updated>
       <workItem from="1542589908795" duration="1104000" />
       <workItem from="1542591766354" duration="40000" />
-      <workItem from="1542591824417" duration="10012000" />
+      <workItem from="1542591824417" duration="10108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10060000" />
+    <option name="totallyTimeSpent" value="10156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
