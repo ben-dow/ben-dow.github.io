@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+nav {
+  margin: 0;
+  background-color: #5386E4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 8vh; }
+
+body {
+  color: #5386E4; }
+
+/*# sourceMappingURL=_home.css.mapp */

@@ -1,0 +1,29 @@
+// This is a partial.
+// It lies in <source>/_sass, just waiting to be imported.
+// It does not contain the YAML front matter and has no corresponding output file in the built site.
+
+
+$primary-color: #5386E4;
+$secondary-color:#D9DBF1;
+
+$softwareColor:#00487C;
+
+$theaterColor:#0075A2;
+
+$break: 700px;
+
+body {
+  margin:0;
+  padding:0;
+
+
+}
+
+nav {
+  margin:0;
+  background-color: $primary-color;
+  position:absolute;
+  left:0;
+  right:0;
+  height:8vh;
+}

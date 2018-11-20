@@ -1,0 +1,110 @@
+@import "base";
+
+h1 {
+  font-family: 'Karla', sans-serif;
+
+
+}
+
+.welcome {
+  position:fixed;
+  width:100%;
+  height:10vh;
+  background-color: $primary-color;
+  z-index:1;
+
+  h1{
+    color:white;
+    font-family: 'Karla', sans-serif;
+    text-align:center;
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+
+.split {
+
+  @media screen and (max-width: $break){
+  height: 50%;
+  width: 100%;
+  left:0;
+  right:0;
+  position: fixed;
+}
+
+  @media screen and (min-width: $break){
+    height: 100%;
+    width: 50%;
+    top:0;
+    position: fixed;
+  }
+
+
+
+}
+
+/* Control the left side */
+.software {
+
+  @media screen and (max-width: $break){
+    top:0;
+  }
+
+  @media screen and (min-width: $break){
+    left:0;
+  }
+
+  background-color: $softwareColor;
+}
+
+
+
+/* Control the right side */
+.theater {
+  @media screen and (max-width: $break){
+    bottom:0;
+  }
+
+  @media screen and (min-width: $break){
+    right:0;
+  }
+  background-color: $theaterColor;
+
+}
+
+.centerItem {
+
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -20%);
+
+
+  .center {
+    background-color: rgba(0,0,0,.6);
+    z-index: 2;
+    width: 20vh;
+    height:20vh ;
+
+    border-radius:500px;
+    margin-left:auto;
+    margin-right:auto;
+
+  }
+
+
+  h1 {
+    text-align:center;
+
+    color:white;
+  }
+
+}
+
+
+
+
