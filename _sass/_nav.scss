@@ -31,6 +31,10 @@ li:hover{
 
 }
 
+li.active {
+  background-color: #3469e4;
+}
+
 /* unvisited link */
 a:link {
   color: white;

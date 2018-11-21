@@ -3,12 +3,12 @@
 // It does not contain the YAML front matter and has no corresponding output file in the built site.
 
 
-$primary-color: #5386e4;
+$primary-color: #235789;
 $secondary-color:#D9DBF1;
 
-$softwareColor:#00487C;
+$softwareColor:#086788;
 
-$theaterColor:#0075A2;
+$theaterColor:#7E6B8F;
 
 $minbreak: 600px;
 $maxbreak: 599px;
@@ -19,8 +19,41 @@ body {
   margin:0;
   padding:0;
   height:100%;
+  font-family: $font;
+
+}
+
+.content {
+  width:90vw;
+  height: 80vh;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:5vh;
+
+}
 
 
+.content {
+
+  h1 {
+    color:$secondary-color;
+    font-size:80px;
+    margin:0;
+  }
+
+  p {
+    padding-left: 5vw;
+    font-size:20px;
+    color:$secondary-color;
+   }
+}
+
+img.headshot {
+  height:40vh;
+  float:right;
+  padding-left:5vw;
+  padding-right:5vw;
+  
 }
 
 

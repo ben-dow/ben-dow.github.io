@@ -1,4 +1,0 @@
----
-layout: theater
-permalink: /theater/
----
