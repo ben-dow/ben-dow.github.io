@@ -35,17 +35,19 @@ body {
 
 .content {
 
-  h1 {
-    color:$secondary-color;
-    font-size:80px;
-    margin:0;
-  }
 
-  p {
-    padding-left: 5vw;
-    font-size:20px;
-    color:$secondary-color;
-   }
+}
+
+.content h1 {
+  color:$secondary-color;
+  font-size:80px;
+  margin:0;
+}
+
+.content p {
+  padding-left: 5vw;
+  font-size:20px;
+  color:$secondary-color;
 }
 
 img.headshot {
@@ -53,7 +55,7 @@ img.headshot {
   float:right;
   padding-left:5vw;
   padding-right:5vw;
-  
+
 }
 
 
