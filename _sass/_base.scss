@@ -3,7 +3,7 @@
 // It does not contain the YAML front matter and has no corresponding output file in the built site.
 
 
-$primary-color: #5386E4;
+$primary-color: #5386e4;
 $secondary-color:#D9DBF1;
 
 $softwareColor:#00487C;
@@ -13,18 +13,64 @@ $theaterColor:#0075A2;
 $minbreak: 600px;
 $maxbreak: 599px;
 
+$font: 'Karla', sans-serif;
+
 body {
   margin:0;
   padding:0;
+  height:100%;
 
 
 }
 
 nav {
-  margin:0;
+
   background-color: $primary-color;
-  position:absolute;
-  left:0;
-  right:0;
-  height:8vh;
+  display:block;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $primary-color;
+  }
+
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 3vh 2vw;
+    text-decoration: none;
+    float:right;
+    right:0;
+  }
+
+  li:hover{
+    background-color: #3469e4;
+
+  }
+
+  /* unvisited link */
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+
+  /* selected link */
+  a:active {
+    color: white;
+  }
 }
+
+
