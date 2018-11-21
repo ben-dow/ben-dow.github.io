@@ -1,0 +1,53 @@
+@import "base";
+
+nav{
+
+  background-color: $primary-color;
+  display:block;
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $primary-color;
+}
+
+li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 3vh 2vw;
+  text-decoration: none;
+  float:right;
+  right:0;
+}
+
+li:hover{
+  background-color: #3469e4;
+
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
